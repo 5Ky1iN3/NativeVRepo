@@ -30,7 +30,7 @@ You must:
 
 ### Prohibited Use
 
-You may **not**:
+You may **NOT**:
 
 * Use the Repository or script for **commercial or monetary purposes** (e.g., selling mods, paid software, monetized platforms)
 * Rebrand or claim ownership of this Repository or its contents
