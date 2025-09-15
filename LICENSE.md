@@ -1,6 +1,6 @@
 # License for GTA V NativeVRepo 📄🔐
 
-This license governs usage of the GTA V Native Documentation Repository ("the Repository"), including all generated Markdown files and the `generate_natives.py` script. This repository is built from Alloc8or’s `gta5-nativedb-data` (natives.json / natives\_gen9.json) with optional fallback content from CitizenFX. ⚖️🛠️🗂️
+This license governs usage of the GTA V Native Repository, including all generated Markdown files and the `generate_natives.py` script. This repository is built from Alloc8or’s `gta5-nativedb-data` (natives.json / natives\_gen9.json) with optional fallback content from CitizenFX. ⚖️🛠️🗂️
 
 ---
 
