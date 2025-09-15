@@ -60,13 +60,13 @@ Users are responsible for ensuring compliance with these upstream licenses:
 
 ### Maintenance
 
-* This project is maintained on a best-effort basis by **\[YOUR\_NAME]**
+* This project is maintained on a best-effort basis by **5kY1iN3**
 * The script (`generate_natives.py`) is included to allow independent regeneration if updates become unavailable
 * The script requires **Python 3.6+** and has **no external dependencies**
 
 ### No Warranty
 
-This Repository is provided **"as is"** without warranty of any kind. **\[YOUR\_NAME]** is not responsible for:
+This Repository is provided **"as is"** without warranty of any kind. **5kY1iN3** is not responsible for:
 
 * Errors, omissions, or inaccuracies in native data
 * Compatibility issues with GTA V builds
