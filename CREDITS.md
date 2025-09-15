@@ -80,36 +80,7 @@ This repository provides structured Markdown documentation for GTA V natives, in
 ### LLM Formatting Tools
 
 **Contribution**: Assisted in Markdown structuring and script design for consistent formatting.
-**Note**: Formatting tools aided in consistency, but content and licensing remain authored by **\[YOUR\_NAME]**.
-
----
-
-## Usage Notes 📌📖
-
-* **Attribution Required**: Users must credit **\[YOUR\_NAME]** when redistributing, modifying, or building on this repository.
-  Example: *"GTA V Native Documentation sourced from \[YOUR\_NAME]'s Repository ([https://github.com/YOUR\_USERNAME/YOUR\_REPOSITORY](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY))"*
-
-* **Non-Commercial Use Only**: This repository is free for personal, educational, and open-source modding. Commercial use is prohibited.
-
-* **Respect Source Licenses**: Users must comply with any licenses from Alloc8or, NativeDB, CitizenFX, SHV, and SHVDN.
-
-* **File Access**:
-
-  * Use `natives/Legacy/` or `natives/Enhanced/` based on GTA V build
-  * Navigate to `natives/{Legacy,Enhanced}/NAMESPACE/NativeName.md` (e.g., `natives/Enhanced/SCRIPT/GetNumberOfEvents.md`)
-
----
-
-## Contributing 🛠️📬
-
-Submit improvements, corrections, or examples via Pull Requests at:
-[https://github.com/YOUR\_USERNAME/YOUR\_REPOSITORY](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY)
-
-Make sure contributions:
-
-* Respect source data licensing
-* Prioritize Alloc8or’s SP-focused data
-* Follow the repository’s existing file structure and formatting
+**Note**: Formatting tools aided in consistency, but content and licensing remain authored by **5kY1iN3**.
 
 ---
 
