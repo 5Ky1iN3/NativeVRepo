@@ -24,8 +24,8 @@ You may:
 
 You must:
 
-* Provide visible credit to **\[YOUR\_NAME]** when using or redistributing the Repository or derivative works
-* Example: *"GTA V Native Documentation sourced from \[YOUR\_NAME]'s Repository ([https://github.com/YOUR\_USERNAME/YOUR\_REPOSITORY](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY))"*
+* Provide visible credit to **5kY1iN3** when using or redistributing the Repository or derivative works
+* Example: *"GTA V Native Documentation sourced from 5kY1iN3's Repository (https://github.com/5Ky1iN3/NativeVRepo)"*
 * Include this credit in READMEs, mod documentation, or tool UIs
 
 ### Prohibited Use
