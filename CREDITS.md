@@ -57,7 +57,7 @@ This repository provides structured Markdown documentation for GTA V natives, in
 ### GitHub
 
 **Contribution**: Hosts the repository and facilitates community collaboration
-**Source**: [https://github.com/YOUR\_USERNAME/YOUR\_REPOSITORY](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY)
+**Source**: https://github.com/5Ky1iN3
 
 ---
 
