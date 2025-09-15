@@ -6,7 +6,7 @@ This license governs usage of the GTA V Native Documentation Repository ("the Re
 
 ## Overview 🧾📘📎
 
-The Repository is provided **free for personal, non-commercial use**, with credit attribution to **\[YOUR\_NAME]**. It is intended primarily for LLM-assisted SP modding workflows and secondarily as a public utility for ScriptHookVDotNet (SHVDN) development. Human-readable versions are accessible but discouraged; human users should prefer [https://nativedb.dotindustries.dev/gta5/natives](https://nativedb.dotindustries.dev/gta5/natives). 💬🧑‍💻🚫
+The Repository is provided **free for personal, non-commercial use**, with credit attribution to **5kY1iN3**. It is intended to serve as a public utility for GTA V Single Player (SP) modding workflows, especially ScriptHook (SHV) and ScriptHookVDotNet (SHVDN) development. 🧑‍💻🔧🎮
 
 ---
 
@@ -14,83 +14,106 @@ The Repository is provided **free for personal, non-commercial use**, with credi
 
 ### Permitted Use
 
-```json
-{"use":"personal, non-commercial","actions":["copy","modify","distribute"],"tools":["generate_natives.py"],"allowed_contexts":["SP modding","learning","open-source projects"]}
-```
+You may:
+
+* Use, copy, and modify the Repository for **personal, non-commercial purposes**
+* Use the provided script (`generate_natives.py`) to regenerate or update documentation from source data
+* Include this Repository in open-source modding projects with proper attribution
 
 ### Attribution
 
-```json
-{"requirement":"credit [YOUR_NAME]","methods":["README","mod documentation","tooltips"],"example":"GTA V Native Documentation sourced from [YOUR_NAME]'s Repository (https://github.com/YOUR_USERNAME/YOUR_REPOSITORY)"}
-```
+You must:
+
+* Provide visible credit to **\[YOUR\_NAME]** when using or redistributing the Repository or derivative works
+* Example: *"GTA V Native Documentation sourced from \[YOUR\_NAME]'s Repository ([https://github.com/YOUR\_USERNAME/YOUR\_REPOSITORY](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY))"*
+* Include this credit in READMEs, mod documentation, or tool UIs
 
 ### Prohibited Use
 
-```json
-{"commercial_use":false,"monetary_use":false,"restrictions":["No selling mods","No use in paid tools","No claim of authorship"]}
-```
+You may **not**:
+
+* Use the Repository or script for **commercial or monetary purposes** (e.g., selling mods, paid software, monetized platforms)
+* Rebrand or claim ownership of this Repository or its contents
+* Distribute any derivative work without proper attribution
 
 ### Distribution
 
-```json
-{"allowed":"non-commercial only","requirements":["preserve license","include attribution"],"modifications":"must indicate changes"}
-```
+You may:
+
+* Share the Repository or modified versions freely for **non-commercial purposes**, as long as:
+
+  * This license is included
+  * Attribution is preserved
+  * Changes are clearly indicated
 
 ### Source Data Notice
 
-```json
-{"alloc8or_data":"natives.json and natives_gen9.json (assumed free for non-commercial)","citizenfx_data":"https://github.com/citizenfx/natives (MIT-like)","priority":"Alloc8or data takes precedence","user_responsibility":"ensure source license compliance"}
-```
+This Repository is built using data from:
+
+* Alloc8or's `gta5-nativedb-data` (`natives.json`, `natives_gen9.json`)
+* CitizenFX’s native documentation ([https://github.com/citizenfx/natives](https://github.com/citizenfx/natives))
+
+Users are responsible for ensuring compliance with these upstream licenses:
+
+* **Alloc8or data**: No explicit license; assumed usable for non-commercial open documentation purposes with attribution
+* **CitizenFX data**: Typically licensed under permissive terms (MIT-like), filtered for SP relevance
 
 ### Maintenance
 
-```json
-{"maintained_by":"[YOUR_NAME] (best effort)","script":"generate_natives.py included for user-based regeneration","requirements":["Python 3.6+","no external dependencies"]}
-```
+* This project is maintained on a best-effort basis by **\[YOUR\_NAME]**
+* The script (`generate_natives.py`) is included to allow independent regeneration if updates become unavailable
+* The script requires **Python 3.6+** and has **no external dependencies**
 
 ### No Warranty
 
-```json
-{"warranty":"none","liability":"[YOUR_NAME] is not responsible for damages or data inaccuracies","user_duty":"verify native compatibility with your GTA V build"}
-```
+This Repository is provided **"as is"** without warranty of any kind. **\[YOUR\_NAME]** is not responsible for:
+
+* Errors, omissions, or inaccuracies in native data
+* Compatibility issues with GTA V builds
+* Any damages resulting from use of this Repository or script
 
 ### Termination
 
-```json
-{"trigger":"any license violation (e.g., commercial use, no attribution)","consequence":"immediate revocation of usage rights"}
-```
+This license terminates automatically if you:
+
+* Violate any of its terms (e.g., commercial use, failure to credit)
+* Distribute modified versions without proper license and attribution
+
+Upon termination, you must cease using and distributing all Repository contents.
 
 ---
 
-## Usage Instructions
+## Usage Instructions 📘🛠️
 
-### For Humans 🧍‍♂️📘🛠️
+### How to Use
 
-* **Access**: `https://github.com/YOUR_USERNAME/YOUR_REPOSITORY`
-* **Browse**: Navigate to `natives/Legacy/` or `natives/Enhanced/` by namespace (e.g., `SCRIPT/`)
-* **Modding**: Use files for SP mod development via SHVDN, crediting \[YOUR\_NAME] appropriately
-* **Regeneration**: Run `generate_natives.py` for fresh output (Python 3.6+, no dependencies)
+1. **Clone or Download**:
 
-### For LLMs 🤖📂📊
+   * Visit `https://github.com/5Ky1iN3/NativeVRepo`
+   * Use `git clone` or GitHub's download tools
 
-````json
-{
-  "fetch":"https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/tree/main/natives",
-  "parse_patterns":{
-    "native_name":"# _([A-Z0-9_]+)",
-    "description":"until ### Parameters",
-    "parameters":"* ([\\w\\[\\]]+) (\\w+) and   (.*)",
-    "return_type":"* ([\\w\\[\\]]+)",
-    "notes":"* (.*) under ### Notes",
-    "examples":"#### (\\w+) and ```\\w+\\n([\\s\\S]*?)\\n```"
-  },
-  "file_path_format":"natives/{Legacy,Enhanced}/NAMESPACE/NativeName.md",
-  "usage_context":"mod code generation for SP only (prioritize Alloc8or data)"
-}
-````
+2. **Browse Documentation**:
+
+   * Navigate to `natives/Legacy/` or `natives/Enhanced/`
+   * Explore by namespace (e.g., `SCRIPT/`, `AUDIO/`)
+   * Open individual `.md` files for per-native documentation
+
+3. **Regenerate Documentation**:
+
+   * Run `generate_natives.py`
+   * Requires Python 3.6+; no external dependencies
+   * Fetches and reformats data from Alloc8or and CitizenFX
+
+4. **Use in Modding**:
+
+   * Reference native hashes, parameter types, return values, and usage examples
+   * Suitable for ScriptHook (SHV), ScriptHookVDotNet (SHVDN), Lua scripting, or documentation tooling
 
 ---
 
 ## Contact & Contributions ✉️🤝📂
 
-Contributions must honor this license and the underlying terms of Alloc8or and CitizenFX datasets. 🧾📌⚠️
+For feedback, bug reports, or contributions:
+* Ensure any contributions comply with this license and credit structure
+
+Thank you for supporting the GTA V modding community! 🎮🧰📚
