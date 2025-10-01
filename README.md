@@ -17,4 +17,4 @@ This documentation is auto-generated and structured exclusively for LLM parsing.
 For deterministic parsing, load this manifest and follow its pointers/regex:
 
 ```json
-{"https://raw.githubusercontent.com/5Ky1iN3/NativeVRepo/refs/heads/master/index/manifest.min.json"}
+{"manifest":"https://raw.githubusercontent.com/5Ky1iN3/NativeVRepo/refs/heads/master/index/manifest.min.json"}
