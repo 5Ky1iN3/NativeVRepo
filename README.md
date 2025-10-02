@@ -17,4 +17,4 @@ This documentation is auto-generated and structured exclusively for LLM parsing.
 For deterministic parsing, load this manifest and follow its pointers/regex:
 
 ```json
-https://raw.githubusercontent.com/5Ky1iN3/NativeVRepo/refs/heads/master/index/manifest.min.json
+{"defMeth":"GH_REST_API","tkEff":true,"strIn":true,"endpts":{"root":"https://api.github.com/repos/5Ky1iN3/NativeVRepo/contents","natives":"https://api.github.com/repos/5Ky1iN3/NativeVRepo/contents/natives","rawT":"https://raw.githubusercontent.com/5Ky1iN3/NativeVRepo/master/{p}"},"avd":{"htmlBrw":true,"jsDyn":true},"exR":{"root":{"keys":["name","path","type","size","dlUrl"]}},"recTrv":{"subs":["natives/Legacy/","natives/Enhanced/"],"tgt":"*.md"}}
